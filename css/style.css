@@ -1,0 +1,41 @@
+
+
+
+.jumbotron{
+    background-image: url("C:/Users/Colton Wilson/Desktop/MobileFriendly/MobileFriendlyFinalProject/img/pexels-photo-1076040.jpeg");
+    color: white;
+}
+
+
+footer{
+    padding: 500px;
+    background-color: tomato;
+}
+.fontLobster{
+    font-family: 'Lobster Two', cursive; 
+}
+.fontOpenSans{
+    font-family: 'Open Sans', sans-serif;
+}
+.fresnoImg{
+    
+    position: relative;
+    background-size: cover;
+    height: 250px;
+    width: 375px;
+}
+
+.jumbotron{
+    /* The image used */
+    
+  
+    /* Full height */
+     
+  
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

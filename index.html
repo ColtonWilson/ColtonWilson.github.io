@@ -12,13 +12,14 @@
     <link rel="contact" href="contact.html">
     <link rel="about" href="about.html">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f899841ffb.js" crossorigin="anonymous"></script>
-
+   
     <title>Colton James Wilson</title>
   </head>
      <!--NavBar-->
-  <nav class="navbar navbar-dark bg-dark">
+ <body>
+  <nav class="navbar navbar-dark bg-dark fixed-top">
     <a class="navbar-brand fontLobster" href="index.html">Welcome!</a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,42 +28,41 @@
     <div class="navbar-collapse collapse" id="navbarsExample01" style="">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link fontLobster" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link fontLobster" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link fontLobster" href="contact.html">Contact</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+          <a class="nav-link dropdown-toggle fontLobster" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Tic-Tac-Toe</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item fontLobster" href="#TicTac">Tic-Tac-Toe</a>
+            <a class="dropdown-item fontLobster" href="#Hex">Hex Calculator</a>
           </div>
         </li>
       </ul>
-      <form class="form-inline my-2 my-md-0">
+      <form class="form-inline my-2 my-md-0 searchbar">
         <input class="form-control" type="text" placeholder="Search" aria-label="Search">
       </form>
     </div>
   </nav>
     <!--JumboTron-->
-    <div class="jumbotron text-center fontOpenSans">
+    <div class="jumbotron jumbotron1 text-center fontOpenSans">
       <img src="img/smallsnake.jpeg" class="rounded-circle img-thumbnail" alt="Guy in leather Jacket">
       <h1 class="display-5 ">Hi, I'm <b>Colton</b>, more than just a computer nerd.</h1>
       <hr class="my-4">
       <p>"A true hero isn't measured by the size of his strength, but by the strength of his heart."</p>
       <p> -- Zeus (Hercules)</p>
       <p class="lead">
-        <a class="btn btn-primary btn-light" href="#" role="button">About Me</a>
+        <a class="btn btn-primary btn-light" href="#MyStory" role="button">My Story</a>
       </p>
     </div>
 
     <!--About Section-->
-    <div class ="container">
+    <div class ="container" id="MyStory">
       <div class ="row">
         <div class = "col-md-6">
           <p class = "border-bottom text-center fontOpenSans">Web Developer. Wine Lover. Cal Fan.</p>
@@ -80,59 +80,77 @@
           <img src="img\fresno1.jpg"  class ="fresnoImg" alt="Fresno Sky Line">
         </div>
       </div>
+    </div>
       <!--Skills-->
-      <div class ="container">
-        <div class ="row">
+      <div class =" jumbotron jumbtron-fluid jumbotron2 skills">
+        <div class ="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="major-icons  d-flex flex-row justify-content-center">
+                <li class = "diamond-shape   "> <img src = "img\C++2.png" class ="cplus"></li>
+                <li class = " diamond-shape2   "> <img src = "img\html.png" class ="html"></li>
+                <li class = "diamond-shape   "> <img src = "img\css.png" class ="css"></li>
+                <li class = " diamond-shape  "> <img src = "img\python.png" class ="python"></li>
+                <li class = "diamond-shape2  "> <img src = "img\javascript.png" class ="java" data-fa-transform="shrink-8"></li>
+              </ul>
+            </div>
           <div class = "col-md-6">
-            <p class = "border-bottom text-center fontOpenSans">Web Developer. Wine Lover. Cal Fan.</p>
-            <p class = "fontOpenSans">In college, I got my first taste of coding with Wolfram Mathematica. I found that with all of my classes I worked most voraciously on 
-              computer science and could not stop until I found a solution. Unfortunately, my college didn't have a computer science degree, just a couple 
-              of classes to take as electives, so I studied for an Applied Mathematics degree while being a member of my school's NCAA  Men's Swim Team. Post-graduation, 
-              I took on a role in management. I quickly worked my way to the top and became one of the youngest managers on the west coast. However, something was missing, 
-              and I wanted to get back into computer science.  So I have decided to go back to school and pursue my Master's in Computer Science where I have learned C++ 
-              and also take some night classes for HTML, and CSS. I continue to learn more and am looking forward to the next Software Engineering role where I can be a 
-              part of a team that is building a product to better the world.
-  
-            </p>
-          </div>
-          <div class = "col-md-6">
-            <img src="img\fresno1.jpg"  class ="fresnoImg" alt="Fresno Sky Line">
+            <p class =" text-center text-white fontOpenSans "><u>My Skills</u></p>
+            <p>This site is using Bootstrap with Flexbox. I gained this knowledge by attending classes at Geekwise Academy. In these classes, I was able to build responsive websites and learn responsive web concepts. On this page, you will notice Parallax Scrolling, Jumbotrons, Interactive Navigation bars, and buttons. 
+              <br><br>"Hex Calculator" and "Tic-Tac-Toe" are implemented with C++ and shows an understanding of functions, menu creation, loops, and Arrays.
+              <br><br>I am always working on furthering my knowledge and am currently working on Phyton and Javascript with CodeAcademy with future classes being planned to solidify my skills. </p>
           </div>
         </div>
+        </div>
+      </div>
+<!--Cards for C++ examples-->
+<div class =" container d-flex justify-content-center flex-column" id="TicTac">
+<div class="card text-center mx-auto  " style="width: 18rem;">
+  <img class="card-img-top" src="img\tic-tac-toe.png" alt="Tic-Tac-Toe">
+  <div class="card-body">
+    <h5 class="card-title">Tic-Tac-Toe Game</h5>
+    <p class="card-text fontOpenSans">Tic-Tac-Toe is a C++ game that when running, syou will be able to play a game against another player.</p>
+    <a href="https://github.com/ColtonWilson/Tic-Tac-Toe/blob/main/source_q3.cpp" class="btn btn-primary" target="_blank">GitHub Link</a>
+  </div>
+</div>
+
+<div class="card text-center my-4 mx-auto " style="width: 18rem;" id="Hex">
+  <img class="card-img-top" src="img\HexCalculator.jpeg" alt="Hex Calculator">
+  <div class="card-body">
+    <h5 class="card-title">Hex Addition Calculator</h5>
+    <p class="card-text fontOpenSans">Hex Calculator is a C++ program that will add two Hexidecimal numbers with a max length size of 10. </p>
+    <a href="https://github.com/ColtonWilson/Hex-Counter/blob/main/source_q2.cpp" class="btn btn-primary" target="_blank">GitHub Link</a>
+  </div>
+</div>
+</div>
 
 
+<!-- Footer-->
 
-
-
-
-    </div>
-  <!-- Quick Note to seperate-->
-
-        <footer id="about" class="cover_Footer">
-            <p>
-                <a href="https://twitter.com" class="twitter">Twitter</a>
-                <a href="https://Instagram.com" class="instagram">Instagram</a>
-                <a href="https://Linkdin.com" class="linkdin">Linkdin</a>
-                <a href="https://email.com" class="email">Email</a>
-            </p>
+        <footer id="Contact" class="cover_Footer">
+          <p class ="text-center text-white fontOpenSans">Connect with me!</p>
+          <div class ="container">
+            <ul class ="d-flex flex-row justify-content-center sociallist ">
+              <li class = "social mr-2"><a  href="https://twitter.com/coltonjwilson" class="twitter" target="_blank">
+                <i class="fab fa-twitter text-light"></i></a>
+              </li>
+              <li class = "social mx-2"><a href="https://www.instagram.com/coltonjameswilson/" class="instagram" target="_blank">
+                  <i class="fab fa-instagram text-light"></i></a>
+              </li>
+              <li class = "social mx-2"><a href="https://www.linkedin.com/in/colton-wilson-b0189694/" class="linkdin" target="_blank">
+                    <i class="fab fa-linkedin-in text-light"></i></a>
+              </li>
+              <li class = "social mx-2"><a href="https://github.com/ColtonWilson" class="email" target="_blank">
+                      <i class="fab fa-github text-light"></i></a>
+              </li>   
+             </ul>
+            </div>
+            <ul class="copyright d-flex justify-content-center ">
+              <li class="mx-2 text-white fontOpenSans"><small>©  Colton Wilson</small></li>
+              <div class="v1"></div>
+              <li  class="mx-2 text-white fontOpenSans"><small>Design: <a href="https://geekwiseacademy.com/" target ="_blank">GeekWise Academy</a></small></li>
+            </ul>
         </footer>
-
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -142,5 +160,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 
-  </body>
+</body>
 </html>

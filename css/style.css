@@ -1,16 +1,19 @@
+.navbar-nav{
+    float: right;
+}
+.searchbar{
+    float: right;
+    clear: right;
+}
 
 
-
-.jumbotron{
+.jumbotron1{
     background-image: url("C:/Users/Colton Wilson/Desktop/MobileFriendly/MobileFriendlyFinalProject/img/pexels-photo-1076040.jpeg");
     color: white;
 }
 
 
-footer{
-    padding: 500px;
-    background-color: tomato;
-}
+
 .fontLobster{
     font-family: 'Lobster Two', cursive; 
 }
@@ -23,15 +26,130 @@ footer{
     background-size: cover;
     height: 250px;
     width: 375px;
+    left:50px;
+    top: 25px;
 }
+.cplus{
 
-.jumbotron{
-    /* The image used */
+    color: #333;
+    display: table-cell;
+    height: 75px;
+    /* transform: rotate(-45deg); */
+    vertical-align: middle;
+    width:75px;
+  
+}
+.html{
+    height: 70px;
+    width: 70px;
+    color: #333;
+    display: table-cell;
+    /* transform: rotate(-45deg); */
+    vertical-align: middle;
+    margin-left: 15px;
     
   
-    /* Full height */
-     
+}
+.css{
+    height: 70px;
+    width: 70px;
+    color: #333;
+    display: table-cell;
+    /* transform: rotate(-45deg); */
+    vertical-align: middle;
+    margin-left: 15px;
+    
+    
   
+}
+.python{
+    height: 80px;
+    width: 80px;
+    color: #333;
+    display: table-cell;
+    /* transform: rotate(-45deg); */
+    vertical-align: middle;
+    margin-left: 15px;
+    
+  
+}
+.java{
+    height: 55px;
+    width: 55px;
+    color: #333;
+    display: table-cell;
+    /* transform: rotate(-45deg); */
+    vertical-align: middle;
+    margin-left: 15px;
+    
+  
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* .diamond-shape { 
+    background:transparent;
+    height: 75px;
+    text-align: center;
+    transform:rotate(45deg);
+    width:75px;
+    border-style: solid;
+    
+}*/
+/* .diamond-shape2 { 
+    background:transparent;
+    height: 95px;
+    text-align: center;
+    transform:rotate(45deg);
+    width:95px;
+    border-style: solid;
+    
+}*/
+
+.jumbotron2{
+    background: rgb(181,218,21);
+    background: linear-gradient(180deg, rgba(181,218,21,1) 0%, rgba(7,188,210,1) 100%);
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+
+}
+
+
+footer{
+    
+    background-color: #de8200;
+    background-image: linear-gradient(236deg, #de8200 11%, #b000ff 100%);
+
+}
+
+.social{
+    position: relative;
+    right: 15px;
+}
+.v1{
+    border-left: 2px solid white;
+    height: 20px;
+}
+
+
+body{
+    padding-top: 50px;
+}
+
+.jumbotron3{
+    background-image: url("C:/Users/Colton Wilson/Desktop/MobileFriendly/MobileFriendlyFinalProject/img/aboutbackground.jpeg");
+    color: white;
+    height: 300px;
+}
+
+
+
+
+.jumbotron1, .jumbotron2, .jumbotron3{
     /* Create the parallax scrolling effect */
     position: relative;
     background-attachment: fixed;

@@ -12,16 +12,19 @@
     color: white;
 }
 
+.skillimg{
+    height: 250px;
+}
 
 
 .fontLobster{
-    font-family: 'Lobster Two', cursive; 
+    font-family: 'Lobster Two', cursive;
 }
 .fontOpenSans{
     font-family: 'Open Sans', sans-serif;
 }
 .fresnoImg{
-    
+
     position: relative;
     background-size: cover;
     height: 250px;
@@ -37,7 +40,7 @@
     vertical-align: middle;
     width:75px;
     margin-right: 25px;
-  
+
 }
 .html{
     height: 70px;
@@ -47,8 +50,8 @@
     /* transform: rotate(-45deg); */
     vertical-align: middle;
     margin-right: 30px;
-    
-  
+
+
 }
 .css{
     height: 70px;
@@ -58,9 +61,9 @@
     /* transform: rotate(-45deg); */
     vertical-align: middle;
     margin-right: 15px;
-    
-    
-  
+
+
+
 }
 .python{
     height: 80px;
@@ -70,8 +73,8 @@
     /* transform: rotate(-45deg); */
     vertical-align: middle;
     margin-right: 25px;
-    
-  
+
+
 }
 .java{
     height: 55px;
@@ -81,8 +84,8 @@
     /* transform: rotate(-45deg); */
     vertical-align: middle;
     margin-left: 5px;
-    
-  
+
+
 }
 
 ul {
@@ -90,23 +93,23 @@ ul {
 }
 
 
-/* .diamond-shape { 
+/* .diamond-shape {
     background:transparent;
     height: 75px;
     text-align: center;
     transform:rotate(45deg);
     width:75px;
     border-style: solid;
-    
+
 }*/
-/* .diamond-shape2 { 
+/* .diamond-shape2 {
     background:transparent;
     height: 95px;
     text-align: center;
     transform:rotate(45deg);
     width:95px;
     border-style: solid;
-    
+
 }*/
 
 .jumbotron2{
@@ -120,7 +123,7 @@ ul {
 
 
 footer{
-    
+
     background-color: #de8200;
     background-image: linear-gradient(236deg, #de8200 11%, #b000ff 100%);
 
@@ -146,7 +149,22 @@ body{
     height: 300px;
 }
 
+.contactform{
+    background-image: url(https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    height: 500px;
+    width: 1000px;
 
+}
+
+.formsize{
+    background-color:transparent;
+    position: relative;
+    top: 90px;
+    left: 110px;
+    transform: scale(.4,.4) rotate(358deg);
+  
+
+}
 
 
 .jumbotron1, .jumbotron2, .jumbotron3{
@@ -157,3 +175,55 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+@media(min-width: 768px)
+{
+    .formsize{
+        background-color: transparent;
+        position: relative;
+        top: 90px;
+        left: 22px;
+        transform: scale(.4,.4) rotate(358deg);
+      
+    
+    }
+}
+@media(min-width: 992px)
+{
+    .formsize{
+        background-color:transparent;
+        position: absolute;
+        top: 467px;
+        left: 5px;
+        right: 500px;
+        transform: scale(.4,.4) rotate(358deg);
+      
+    
+    }
+}
+@media(min-width: 1024px)
+{
+    .formsize{
+        background-color: transparent;
+        position: absolute;
+        top: 467px;
+        left: 0px;
+        right: 200px;
+        transform: scale(.4,.4) rotate(358deg);
+      
+    
+    }
+}
+@media(min-width: 1440px)
+{
+    .formsize{
+        background-color: transparent;
+        position: absolute;
+        top: 467px;
+        left: 150px;
+        right: 200px;
+        transform: scale(.4,.4) rotate(358deg);
+      
+    
+    }
+}

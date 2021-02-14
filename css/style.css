@@ -149,6 +149,13 @@ body{
     height: 300px;
 }
 
+.jumbotron4{
+    background-image: url("https://images.pexels.com/photos/747784/pexels-photo-747784.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    color: white;
+    height: 300px;
+}
+
+
 .contactform{
     background-image: url(https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
     background-position: center;
@@ -163,7 +170,7 @@ body{
 }
 
 
-.jumbotron1, .jumbotron2, .jumbotron3{
+.jumbotron1, .jumbotron2, .jumbotron3, .jumbotron4{
     /* Create the parallax scrolling effect */
     position: relative;
     background-attachment: fixed;

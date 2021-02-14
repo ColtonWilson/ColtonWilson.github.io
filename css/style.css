@@ -157,7 +157,7 @@ body{
 
 
 .contactform{
-    background-image: url(https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-image: url("https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
     background-position: center;
     background-size: cover;
     position: relative;

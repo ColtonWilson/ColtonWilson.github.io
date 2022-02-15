@@ -59,29 +59,30 @@
 <div class = "jumbotron jumbotron-fluid jumbotron5">
   <div class = "container">
       <div class="container formsize">
-        <form method="post">
+        <form method="post" name="myemailform" action="https://formsubmit.co/colton_wilson93@yahoo.com">
+          <input type="hidden" name="_next" value=thankyou.html>
+          <input type="hidden" name="_subject" value="New Contact!">
           <h3 class= "text-dark" >Drop Me a Message</h3>
           <div class="row">
               <div class="col-12 col-md-10 col-lg-8 col-xl-8">
-                 <form method="post" name="myemailform" action="https://formsubmit.co/colton_wilson93@yahoo.com">
-                    <input type="hidden" name="_next" value=thankyou.html>
-                    <input type="hidden" name="_subject" value="New Contact!">
-                    Enter Name:	<input type="text" name="name" placeholder="John Smith" required>
-                    <br>
-                    Enter Email Address:	<input type="email" name="email" placeholder="Email Address" required>
-                    <br>
-                    Enter Message:
-                    <br>
-                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
-
-                    <input type="submit" value="Send Form">
-                    
-                  </form>
-
+                 <div class="form-group">
+                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" required />
+                 </div>
+                 <div class="form-group">
+                  <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" required/>
+                 </div>
+                <div class="form-group">
+                   <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+               </div>
+                <div class="form-group">
+                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+               </div>
             </div>
             <div class="w-100"></div>
             <div class="col-12 col-md-10 col-lg-8">
-
+                <div class="form-group">
+                   <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
+                </div>
            </div>
         </div>
       </form>
